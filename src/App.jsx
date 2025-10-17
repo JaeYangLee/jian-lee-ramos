@@ -1,10 +1,13 @@
 import "./index.css";
+import PortfolioPageOne from "./pages/PortfolioPageOne";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (
     <>
       <div>
-        <h1>Hello World!</h1>
+        <SideBar />
+        <PortfolioPageOne />
       </div>
     </>
   );
