@@ -4,3 +4,7 @@
 @theme {
   --font-antonio: "Antonio", sans-serif;
 }
+
+body {
+  background-color: #31302d;
+}
