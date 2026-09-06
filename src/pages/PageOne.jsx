@@ -11,13 +11,13 @@ function PageOne() {
           <h1 className="w-full text-center md:text-left font-antonio text-[#C6BF8B] text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold select-none">
             JIAN LEE RAMOS
           </h1>
-          <div className="flex md:flex-row flex-col items-center justify-center gap-8 ">
-            <div className="flex flex-col items-center justify-center md:justify-between gap-4 h-full">
+          <div className="flex flex-col items-center justify-center gap-8 md:flex-row ">
+            <div className="flex flex-col items-center justify-center h-full gap-4 md:justify-between">
               <h2 className="font-antonio text-[#F9EEE8] text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold select-none">
                 FULLSTACK DEVELOPER
               </h2>
 
-              <div className="flex flex-row items-center justify-center md:justify-start md:items-start w-full gap-4 xl:gap-8">
+              <div className="flex flex-row items-center justify-center w-full gap-4 md:justify-start md:items-start xl:gap-8">
                 <BsLinkedin className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8]" />
                 <BsGithub className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8]" />
                 <BsGoogle className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8]" />
@@ -34,7 +34,7 @@ function PageOne() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center bg-[#31302D] p-8 md:px-24 lg:px-36 xl:px-72 gap-2">
+      <div className="flex flex-col items-center justify-center bg-[#31302D] p-8 xl:pb-20 md:px-24 lg:px-36 xl:px-72 gap-2">
         <div className="flex flex-col items-start justify-center">
           <p className="font-mono font-light text-left text-xs lg:text-base text-[#F9EEE8]">
             Hi there! I’m
