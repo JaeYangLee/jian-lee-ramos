@@ -13,8 +13,35 @@ function Projects() {
             in Computer Science and continue to shape me as a developer.
           </p>
         </div>
-        <div className="flex flex-col gap-4 px-8 py-4 md:px-24 lg:px-36 xl:px-72">
-          Education Section
+
+        <div className="flex flex-col items-center justify-center w-full gap-4 px-8 py-4 lg:items-start lg:justify-start lg:gap-12 md:gap-12 md:flex-row md:px-24 lg:px-36 xl:px-72">
+          <div className="">
+            <img
+              className="size-64 lg:size-98 xl:size-106 object-cover rounded-lg shadow-[#31302D] shadow-[4px_4px_0px_0px] lg:shadow-[8px_8px_0px_0px]"
+              src="src/assets/jian-grad-pic.jpeg"
+              alt="jian-grad-pic"
+            />
+          </div>
+
+          <div className="flex flex-col items-center justify-center gap-2 lg:gap-4 md:items-start md:justify-start">
+            <hr className="w-full pb-2 opacity-20" />
+            <h1 className="flex text-xl font-bold text-center md:hidden font-antonio">
+              B.S. Major in Computer Science
+            </h1>
+            <h1 className="hidden text-lg font-bold md:text-xl lg:text-2xl xl:text-3xl md:flex font-antonio ">
+              B.S. Major in Computer Science
+            </h1>
+            <p className="font-mono text-sm font-light text-center xl:text-lg">
+              S.Y. 2021-2025
+            </p>
+            <p className="font-mono text-sm font-light text-center xl:text-lg">
+              STI College San Jose Del Monte
+            </p>
+            <p className="pb-4 font-mono text-sm font-light text-center xl:text-lg">
+              Bulacan, Philippines
+            </p>
+            <hr className="w-full opacity-20" />
+          </div>
         </div>
       </div>
     </>

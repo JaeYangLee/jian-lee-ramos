@@ -8,7 +8,7 @@ function PageOne() {
     <>
       <div className="w-full h-screen flex flex-col items-center justify-center bg-[#31302D] px-4">
         <div className="flex flex-col items-center justify-center gap-4">
-          <h1 className="w-full text-center md:text-left font-antonio text-[#C6BF8B] text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold select-none">
+          <h1 className="w-full text-center md:text-left font-antonio text-[#C6BF8B] text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold">
             JIAN LEE RAMOS
           </h1>
           <div className="flex flex-col items-center justify-center gap-8 md:flex-row ">
