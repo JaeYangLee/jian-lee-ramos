@@ -13,8 +13,52 @@ function Projects() {
             problems, collaborate, and continue to grow as a professional.
           </p>
         </div>
-        <div className="flex flex-col gap-4 px-8 py-4 md:px-24 lg:px-36 xl:px-72">
-          Experience Section
+
+        <div className="flex flex-col items-center justify-center w-full gap-4 px-8 py-4 md:px-24 lg:px-36 xl:px-72">
+          <div className="flex flex-col items-center justify-center w-full">
+            <div className="flex flex-row items-center justify-center w-full gap-4 pb-2">
+              <hr className="w-full opacity-30" />
+              <p className="opacity-30">✦</p>
+              <hr className="w-full opacity-30" />
+            </div>
+
+            <div className="flex flex-row items-center justify-start w-full gap-4 pb-2">
+              <div className="flex flex-col items-start justify-start gap-2">
+                <h2 className="pb-4 text-lg font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D]">
+                  ✦ Department of Human Settlements and Urban Development
+                  (DHSUD)
+                </h2>
+                <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D]">
+                  Project Monitoring and Evaluation Officer I
+                </p>
+                <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D]">
+                  Nov 2025 - Present
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center justify-center w-full">
+            <div className="flex flex-row items-center justify-center w-full gap-4 pb-2">
+              <hr className="w-full opacity-30" />
+              <p className="opacity-30">✦</p>
+              <hr className="w-full opacity-30" />
+            </div>
+
+            <div className="flex flex-row items-center justify-start w-full gap-4 pb-2">
+              <div className="flex flex-col items-start justify-start gap-2">
+                <h2 className="pb-4 text-lg font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D]">
+                  ✦ Philippine Coast Guard - CGWCEISC
+                </h2>
+                <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D]">
+                  Full Stack Developern Intern
+                </p>
+                <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D]">
+                  February 2025 - May 2025
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

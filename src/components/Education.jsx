@@ -30,19 +30,19 @@ function Projects() {
               <hr className="w-full opacity-30" />
             </div>
 
-            <h1 className="flex text-xl font-bold text-center md:hidden font-antonio">
+            <h1 className="flex text-xl font-bold text-center md:hidden font-antonio text-[#31302D]">
               B.S. Major in Computer Science
             </h1>
-            <h1 className="hidden text-lg font-bold md:text-xl lg:text-2xl xl:text-3xl md:flex font-antonio ">
+            <h1 className="hidden text-lg font-bold md:text-xl lg:text-2xl xl:text-3xl md:flex font-antonio text-[#31302D]">
               B.S. Major in Computer Science
             </h1>
-            <p className="font-mono text-sm font-light text-center xl:text-lg">
+            <p className="font-mono text-sm font-light text-center xl:text-lg text-[#31302D]">
               S.Y. 2021-2025
             </p>
-            <p className="font-mono text-sm font-light text-center xl:text-lg">
+            <p className="font-mono text-sm font-light text-center xl:text-lg text-[#31302D]">
               STI College San Jose Del Monte
             </p>
-            <p className="pb-4 font-mono text-sm font-light text-center xl:text-lg">
+            <p className="pb-4 font-mono text-sm font-light text-center xl:text-lg text-[#31302D]">
               Bulacan, Philippines
             </p>
             <hr className="w-full opacity-30" />
