@@ -17,14 +17,19 @@ function Projects() {
         <div className="flex flex-col items-center justify-center w-full gap-4 px-8 py-4 lg:items-start lg:justify-start lg:gap-12 md:gap-12 md:flex-row md:px-24 lg:px-36 xl:px-72">
           <div className="">
             <img
-              className="size-64 lg:size-98 xl:size-106 object-cover rounded-lg shadow-[#31302D] shadow-[4px_4px_0px_0px] lg:shadow-[8px_8px_0px_0px]"
+              className="size-64 lg:size-94 xl:size-106 object-cover rounded-lg shadow-[#31302D] shadow-[4px_4px_0px_0px] lg:shadow-[8px_8px_0px_0px]"
               src="src/assets/jian-grad-pic.jpeg"
               alt="jian-grad-pic"
             />
           </div>
 
           <div className="flex flex-col items-center justify-center gap-2 lg:gap-4 md:items-start md:justify-start">
-            <hr className="w-full pb-2 opacity-20" />
+            <div className="flex flex-row items-center justify-center w-full gap-4 pb-2">
+              <hr className="w-full opacity-30" />
+              <p className="opacity-30">✦</p>
+              <hr className="w-full opacity-30" />
+            </div>
+
             <h1 className="flex text-xl font-bold text-center md:hidden font-antonio">
               B.S. Major in Computer Science
             </h1>
@@ -40,7 +45,7 @@ function Projects() {
             <p className="pb-4 font-mono text-sm font-light text-center xl:text-lg">
               Bulacan, Philippines
             </p>
-            <hr className="w-full opacity-20" />
+            <hr className="w-full opacity-30" />
           </div>
         </div>
       </div>
