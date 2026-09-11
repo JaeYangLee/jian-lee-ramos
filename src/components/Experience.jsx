@@ -24,17 +24,43 @@ function Projects() {
 
             <div className="flex flex-row items-center justify-start w-full gap-4 pb-2">
               <div className="flex flex-col items-start justify-start gap-2">
-                <h2 className="pb-4 text-lg font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D]">
+                <h2 className="pb-2 text-lg font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D]">
                   ✦ Department of Human Settlements and Urban Development
                   (DHSUD)
                 </h2>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D]">
+                <p className="font-mono text-sm font-light lg:text-lg xl:text-xl text-[#31302D]">
                   Project Monitoring and Evaluation Officer I
                 </p>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D]">
+                <p className="font-mono text-sm font-light lg:text-lg xl:text-xl text-[#31302D]">
                   Nov 2025 - Present
                 </p>
               </div>
+            </div>
+
+            <div className="hidden md:flex flex-col items-center justify-center opacity-60 gap-2">
+              <p className="font-mono font-light text-xs">
+                • Supported the Office of the Assistant Secretary for Regional
+                Operations and Administrative Services, supporting document
+                monitoring, evaluation, and administrative operations.
+              </p>
+              <p className="font-mono font-light text-xs">
+                • Supported the Zero Backlogs Program (ZBP) initiated by the
+                Office of the Secretary, contributing to a 93.7% reduction in
+                Regional Office backlogs from 252 to 16 documents from 2025 to
+                present.
+              </p>
+              <p className="font-mono font-light text-xs">
+                • Managed the evaluation, monitoring, and routing of an average
+                of 372 incoming documents per month, maintaining consistent
+                processing across Regional Operations, Disaster Response, and
+                Administrative Services.
+              </p>
+              <p className="font-mono font-light text-xs">
+                • Conducted daily monitoring of Regional Office HOA and HRED
+                cases involving housing applications and complaints,
+                coordinating and communicating with regional office focal
+                persons to track case status and facilitate appropriate action.
+              </p>
             </div>
           </div>
 
@@ -47,7 +73,7 @@ function Projects() {
 
             <div className="flex flex-row items-center justify-start w-full gap-4 pb-2">
               <div className="flex flex-col items-start justify-start gap-2">
-                <h2 className="pb-4 text-lg font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D]">
+                <h2 className="text-lg font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D]">
                   ✦ Philippine Coast Guard - CGWCEISC
                 </h2>
                 <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D]">
@@ -57,6 +83,24 @@ function Projects() {
                   February 2025 - May 2025
                 </p>
               </div>
+            </div>
+
+            <div className="hidden md:flex flex-col items-center justify-center opacity-60 gap-2 pb-4">
+              <p className="font-mono font-light text-xs">
+                • Initiated the development of CGWCEISC Inventory System laid
+                the foundation for improvement of CGWCEISC’s asset management
+                process.
+              </p>
+              <p className="font-mono font-light text-xs">
+                • Successfully led the project through full SDLC to design and
+                develop a web-based Inventory Management System for the
+                Philippine Coast Guard – CGWCEISC in an Agile environment.
+              </p>
+              <p className="font-mono font-light text-xs">
+                • Developed and maintained scalable, user-centered web
+                interfaces using React.js, Tailwind CSS, and Figma to enhance
+                functionality and user experience.
+              </p>
             </div>
           </div>
         </div>

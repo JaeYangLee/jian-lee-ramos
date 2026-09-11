@@ -14,7 +14,7 @@ function PageTwo() {
   const [activeSection, setActiveSection] = useState("projects");
   return (
     <>
-      <div className="flex flex-col w-full h-screen">
+      <div className="flex flex-col w-full h-full">
         <div className="flex flex-row items-center justify-center pt-8">
           <ul className="flex-row items-center justify-between hidden w-full gap-4 px-24 font-bold lg:px-34 xl:px-70 md:flex font-antonio">
             <li
