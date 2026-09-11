@@ -14,7 +14,9 @@ function Projects() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-4 px-8 py-4 md:px-24 lg:px-36 xl:px-72"></div>
+        <div className="flex flex-col gap-4 px-8 py-4 md:px-24 lg:px-36 xl:px-72">
+          <h1>About Me Section</h1>
+        </div>
       </div>
     </>
   );
