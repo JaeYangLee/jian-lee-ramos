@@ -1,7 +1,7 @@
 import React from "react";
 import { BsFillMoonFill } from "react-icons/bs";
 
-function Footer() {
+function Footer({ darkMode, setTheme }) {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full py-8">
@@ -18,7 +18,10 @@ function Footer() {
         </div>
 
         <div className="absolute right-0 px-8 md:px-4 lg:px-8 xl:px-12 opacity-60 hover:opacity-100 transition-all duration-300 active:opacity-60">
-          <button className="p-2 border border-[#F9EEE8]">
+          <button
+            onClick={() => setTheme(darkMode ? "light" : "dark")}
+            className="p-2 border border-[#F9EEE8]"
+          >
             <BsFillMoonFill className="text-[#F9EEE8]" />
           </button>
         </div>
