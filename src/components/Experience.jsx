@@ -22,22 +22,21 @@ function Projects() {
               <hr className="w-full opacity-30" />
             </div>
 
-            <div className="flex flex-row items-center justify-start w-full gap-4 pb-2">
+            <div className="flex flex-row items-center justify-start w-full gap-4 pb-4">
               <div className="flex flex-col items-start justify-start gap-2">
-                <h2 className="pb-2 text-lg font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#F9EEE8]">
-                  ✦ Department of Human Settlements and Urban Development
-                  (DHSUD)
+                <h2 className="text-md font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
+                  Department of Human Settlements and Urban Development (DHSUD)
                 </h2>
-                <p className="font-mono text-sm font-light lg:text-lg xl:text-xl text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   Project Monitoring and Evaluation Officer I
                 </p>
-                <p className="font-mono text-sm font-light lg:text-lg xl:text-xl text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   Nov 2025 - Present
                 </p>
               </div>
             </div>
 
-            <div className="hidden md:flex flex-col items-center justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
+            <div className=" flex flex-col items-center justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
               <p className="font-mono text-xs font-light">
                 • Supported the Office of the Assistant Secretary for Regional
                 Operations and Administrative Services, supporting document
@@ -71,21 +70,21 @@ function Projects() {
               <hr className="w-full opacity-30" />
             </div>
 
-            <div className="flex flex-row items-center justify-start w-full gap-4 pb-2">
+            <div className="flex flex-row items-center justify-start w-full gap-2 pb-4">
               <div className="flex flex-col items-start justify-start gap-2">
-                <h2 className="text-lg font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#F9EEE8]">
-                  ✦ Philippine Coast Guard - CGWCEISC
+                <h2 className="text-md font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
+                  Philippine Coast Guard - CGWCEISC
                 </h2>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   Full Stack Developern Intern
                 </p>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-xl text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   February 2025 - May 2025
                 </p>
               </div>
             </div>
 
-            <div className="hidden md:flex flex-col items-center justify-center opacity-60 gap-2 pb-4 dark:text-[#F9EEE8]">
+            <div className="flex flex-col items-center justify-center opacity-60 gap-2 pb-4 dark:text-[#F9EEE8]">
               <p className="font-mono text-xs font-light">
                 • Initiated the development of CGWCEISC Inventory System laid
                 the foundation for improvement of CGWCEISC’s asset management

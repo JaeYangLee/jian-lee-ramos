@@ -30,10 +30,10 @@ function Projects() {
               <hr className="w-full opacity-30" />
             </div>
 
-            <h1 className="flex text-xl font-bold text-center md:hidden font-antonio text-[#31302D] dark:text-[#F9EEE8]">
+            <h1 className="flex text-xl font-bold text-center md:hidden font-antonio text-[#31302D] dark:text-[#C6BF8B]">
               B.S. Major in Computer Science
             </h1>
-            <h1 className="hidden text-lg font-bold md:text-xl lg:text-2xl xl:text-3xl md:flex font-antonio text-[#31302D] dark:text-[#F9EEE8]">
+            <h1 className="hidden text-lg font-bold md:text-xl lg:text-2xl xl:text-3xl md:flex font-antonio text-[#31302D] dark:text-[#C6BF8B]">
               B.S. Major in Computer Science
             </h1>
             <p className="font-mono text-sm font-light text-center xl:text-lg text-[#31302D] opacity-60 dark:text-[#F9EEE8]">

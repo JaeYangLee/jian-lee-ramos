@@ -20,9 +20,9 @@ function Projects() {
           <hr className="w-full opacity-30" />
         </div>
 
-        <div className="w-full px-4 py-2 columns-2 md:columns-3 sm:columns-2 lg:columns-3 xl:columns-4 xl:gap-8 md:px-24 md:py-4 lg:px-36 lg:py-8 xl:px-72 xl:py-12">
+        <div className="w-full px-4 py-2 columns-2 md:columns-3 sm:columns-2 lg:columns-2 xl:columns-2 xl:gap-8 md:px-24 md:py-4 lg:px-36 lg:py-8 xl:px-72 xl:py-12">
           <img
-            className="object-cover py-2 size-80"
+            className="py-2 "
             src="src/assets/Artworks/480246677_914541654176119_2352783793277039663_n.jpg"
             alt="artwork-1"
           />
