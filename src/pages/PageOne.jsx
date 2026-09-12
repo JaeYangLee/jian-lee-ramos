@@ -6,7 +6,7 @@ import { BsInstagram } from "react-icons/bs";
 function PageOne() {
   return (
     <>
-      <div className="w-full h-screen flex flex-col items-center justify-center bg-[#31302D] px-4">
+      <div className="w-full h-screen flex flex-col items-center justify-center bg-[#31302D] dark:bg-[#1d1d1b] px-4">
         <div className="flex flex-col items-center justify-center gap-4">
           <h1 className="w-full text-center md:text-left font-antonio text-[#C6BF8B] text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold">
             JIAN LEE RAMOS
@@ -34,7 +34,7 @@ function PageOne() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center bg-[#31302D] p-8 xl:pb-20 md:px-24 lg:px-36 xl:px-72 gap-2">
+      <div className="flex flex-col items-center justify-center bg-[#31302D] dark:bg-[#1d1d1b] p-8 xl:pb-20 md:px-24 lg:px-36 xl:px-72 gap-2">
         <div className="flex flex-col items-start justify-center">
           <p className="font-mono font-light text-left text-xs lg:text-base text-[#F9EEE8]">
             Hi there! I’m

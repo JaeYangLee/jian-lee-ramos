@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <>
-      <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D] dark:border-t dark:border-b dark:border-[#F9EEE8]">
+      <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D]">
         <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 xl:py-16">
           <h1 className="font-antonio  font-bold text-3xl lg:text-4xl xl:text-5xl text-[#31302D] dark:text-[#F9EEE8]">
             Where I've grown.
@@ -38,24 +38,24 @@ function Projects() {
             </div>
 
             <div className="hidden md:flex flex-col items-center justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
-              <p className="font-mono font-light text-xs">
+              <p className="font-mono text-xs font-light">
                 • Supported the Office of the Assistant Secretary for Regional
                 Operations and Administrative Services, supporting document
                 monitoring, evaluation, and administrative operations.
               </p>
-              <p className="font-mono font-light text-xs">
+              <p className="font-mono text-xs font-light">
                 • Supported the Zero Backlogs Program (ZBP) initiated by the
                 Office of the Secretary, contributing to a 93.7% reduction in
                 Regional Office backlogs from 252 to 16 documents from 2025 to
                 present.
               </p>
-              <p className="font-mono font-light text-xs">
+              <p className="font-mono text-xs font-light">
                 • Managed the evaluation, monitoring, and routing of an average
                 of 372 incoming documents per month, maintaining consistent
                 processing across Regional Operations, Disaster Response, and
                 Administrative Services.
               </p>
-              <p className="font-mono font-light text-xs">
+              <p className="font-mono text-xs font-light">
                 • Conducted daily monitoring of Regional Office HOA and HRED
                 cases involving housing applications and complaints,
                 coordinating and communicating with regional office focal
@@ -86,17 +86,17 @@ function Projects() {
             </div>
 
             <div className="hidden md:flex flex-col items-center justify-center opacity-60 gap-2 pb-4 dark:text-[#F9EEE8]">
-              <p className="font-mono font-light text-xs">
+              <p className="font-mono text-xs font-light">
                 • Initiated the development of CGWCEISC Inventory System laid
                 the foundation for improvement of CGWCEISC’s asset management
                 process.
               </p>
-              <p className="font-mono font-light text-xs">
+              <p className="font-mono text-xs font-light">
                 • Successfully led the project through full SDLC to design and
                 develop a web-based Inventory Management System for the
                 Philippine Coast Guard – CGWCEISC in an Agile environment.
               </p>
-              <p className="font-mono font-light text-xs">
+              <p className="font-mono text-xs font-light">
                 • Developed and maintained scalable, user-centered web
                 interfaces using React.js, Tailwind CSS, and Figma to enhance
                 functionality and user experience.

@@ -15,13 +15,13 @@ function PageTwo() {
   return (
     <>
       <div className="flex flex-col w-full h-full ">
-        <div className="flex flex-row items-center justify-center pt-8">
+        <div className="flex flex-row items-center justify-center pt-8 dark:bg-[#1d1d1b]">
           <ul className="flex-row items-center justify-between hidden w-full gap-4 px-24 font-bold lg:px-34 xl:px-70 md:flex font-antonio">
             <li
               onClick={() => setActiveSection("projects")}
               className={
                 activeSection === "projects"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] dark:border-2 dark:border-b-0 text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
+                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
                   : "p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl transition-all ease-in-out duration-300"
               }
             >
@@ -32,7 +32,7 @@ function PageTwo() {
               onClick={() => setActiveSection("experience")}
               className={
                 activeSection === "experience"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] dark:border-2 dark:border-b-0 text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
+                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
                   : "p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl"
               }
             >
@@ -43,7 +43,7 @@ function PageTwo() {
               onClick={() => setActiveSection("education")}
               className={
                 activeSection === "education"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] dark:border-2 dark:border-b-0 text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
+                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
                   : "p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl"
               }
             >
@@ -54,7 +54,7 @@ function PageTwo() {
               onClick={() => setActiveSection("artworks")}
               className={
                 activeSection === "artworks"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] dark:border-2 dark:border-b-0 text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
+                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
                   : "p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl"
               }
             >
@@ -65,7 +65,7 @@ function PageTwo() {
               onClick={() => setActiveSection("aboutMe")}
               className={
                 activeSection === "aboutMe"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] dark:border-2 dark:border-b-0 text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
+                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black"
                   : "p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl"
               }
             >

@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <>
-      <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] dark:border-t dark:border-b dark:border-[#F9EEE8]">
+      <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] ">
         <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 xl:py-16">
           <h1 className="font-antonio  font-bold text-3xl lg:text-4xl xl:text-5xl text-[#31302D] dark:text-[#F9EEE8]">
             What I've learned.
@@ -17,7 +17,7 @@ function Projects() {
         <div className="flex flex-col items-center justify-center w-full gap-4 px-8 py-4 lg:items-start lg:justify-start lg:gap-12 md:gap-12 md:flex-row md:px-24 lg:px-36 xl:px-72">
           <div className="">
             <img
-              className="size-64 lg:size-94 xl:size-106 object-cover rounded-lg shadow-[#31302D]  shadow-lg"
+              className="size-64 lg:size-94 xl:size-106 object-cover rounded-lg shadow-[#31302D] dark:shadow-black  shadow-lg"
               src="src/assets/jian-grad-pic.jpeg"
               alt="jian-grad-pic"
             />

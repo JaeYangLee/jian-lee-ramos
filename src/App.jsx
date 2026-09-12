@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import PageOne from "./pages/PageOne";
 import PageTwo from "../src/pages/PageTwo";
 import Footer from "./components/Footer";
+import SideBar from "./components/SideBar";
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -20,9 +21,12 @@ function App() {
   };
   return (
     <>
-      <PageOne />
-      <PageTwo />
-      <Footer darkMode={darkMode} setTheme={setThemeMode} />
+      <div>
+        <SideBar />
+        <PageOne />
+        <PageTwo />
+        <Footer darkMode={darkMode} setTheme={setThemeMode} />
+      </div>
     </>
   );
 }
