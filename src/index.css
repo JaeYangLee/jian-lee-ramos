@@ -13,19 +13,19 @@
     }
 
     25% {
-      transform: scale(1.6) rotate(-8deg);
+      transform: scale(1.3) rotate(-8deg);
     }
 
     50% {
-      transform: scale(1.7) rotate(8deg);
+      transform: scale(1.4) rotate(8deg);
     }
 
     75% {
-      transform: scale(1.6) rotate(-8deg);
+      transform: scale(1.3) rotate(-8deg);
     }
 
     100% {
-      transform: scale(1.6) rotate(0deg);
+      transform: scale(1.3) rotate(0deg);
     }
   }
 }
