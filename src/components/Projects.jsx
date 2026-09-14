@@ -32,7 +32,7 @@ function Projects() {
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 text-[#31302D] dark:text-[#C6BF8B]" />
+                    <BsGithub className="size-6  text-[#31302D] dark:text-[#C6BF8B]" />
                     <button className="font-mono text-xs px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
                       Live
                     </button>
@@ -44,21 +44,18 @@ function Projects() {
               </div>
             </div>
 
-            <div className=" flex flex-col items-start justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
+            <div className="w-full flex flex-col items-start justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
               <p className="font-mono text-xs font-light">
-                • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam a ultrices felis. Cras condimentum, dui vel ullamcorper
-                fermentum, nunc augue fringilla nisi, sed vulputate libero metus
-                viverra quam.
+                • Developed a full-stack digital art gallery using React.js,
+                Node.js, Express.js, PostgreSQL, and Tailwind CSS.
               </p>
               <p className="font-mono text-xs font-light">
-                • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam a ultrices felis.
+                • Implemented RESTful APIs, CRUD operations, JWT authentication,
+                bcrypt password hashing, and image uploads.
               </p>
               <p className="font-mono text-xs font-light">
-                • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam a ultrices felis. Cras condimentum, dui vel ullamcorper
-                fermentum, nunc augue fringilla nisi.
+                • Designed responsive UI/UX in Figma and deployed the
+                application to a production environment.
               </p>
             </div>
 

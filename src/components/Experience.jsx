@@ -76,7 +76,7 @@ function Projects() {
                   Philippine Coast Guard - CGWCEISC
                 </h2>
                 <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
-                  Full Stack Developern Intern
+                  Full Stack Developer Intern
                 </p>
                 <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   February 2025 - May 2025
