@@ -21,10 +21,10 @@ function PageOne() {
                 <a
                   className="hover:animate-shake 
                   origin-bottom transition-transform duration-300"
-                  href=" //www.linkedin.com/in/jianleeramos/"
+                  href="https://www.linkedin.com/in/jianleeramos/"
                   target="_blank"
                 >
-                  <BsLinkedin className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8] active:text-[#958f8b]" />
+                  <BsLinkedin className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8] active:text-[#645f5d] active:translate-1 active:origin-bottom transition:transform duration-50" />
                 </a>
 
                 <a
@@ -32,14 +32,14 @@ function PageOne() {
                   href="https://github.com/JaeYangLee"
                   target="_blank"
                 >
-                  <BsGithub className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8] active:text-[#958f8b]" />
+                  <BsGithub className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8] active:text-[#958f8b] active:translate-1 active:origin-bottom transition:transform duration-50" />
                 </a>
 
                 <a
                   className="hover:animate-shake origin-bottom transition-transform duration-300"
                   href="ramosjianlee@gmail.com"
                 >
-                  <BsGoogle className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8] active:text-[#958f8b]" />
+                  <BsGoogle className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8] active:text-[#958f8b] active:translate-1 active:origin-bottom transition:transform duration-50" />
                 </a>
 
                 <a
@@ -47,7 +47,7 @@ function PageOne() {
                   href="https://www.instagram.com/jlanl33?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
                   target="_blank"
                 >
-                  <BsInstagram className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8] active:text-[#958f8b]" />
+                  <BsInstagram className="size-5 md:size-6 lg:size-8 xl:size-9 text-[#F9EEE8] active:text-[#958f8b] active:translate-1 active:origin-bottom transition:transform duration-50" />
                 </a>
               </div>
             </div>
