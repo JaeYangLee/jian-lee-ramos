@@ -39,7 +39,7 @@ function Projects() {
                   </div>
                 </div>
                 <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
-                  Web Application
+                  Full-Stack Art-Sharing Web Application
                 </p>
               </div>
             </div>
@@ -100,26 +100,26 @@ function Projects() {
                   </div>
                 </div>
                 <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
-                  Web Application
+                  Inventory Management Web Application
                 </p>
               </div>
             </div>
 
             <div className=" flex flex-col items-start justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
               <p className="font-mono text-xs font-light">
-                • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam a ultrices felis. Cras condimentum, dui vel ullamcorper
-                fermentum, nunc augue fringilla nisi, sed vulputate libero metus
-                viverra quam.
+                • Developed user authentication and role-based access features
+                using React, Node.js, and Express, with MySQL for data
+                management.
               </p>
               <p className="font-mono text-xs font-light">
-                • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam a ultrices felis.
+                • Implemented inventory management functionalities, including
+                real-time inventory tracking, item management, and inventory
+                logs/history.
               </p>
               <p className="font-mono text-xs font-light">
-                • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Aliquam a ultrices felis. Cras condimentum, dui vel ullamcorper
-                fermentum, nunc augue fringilla nisi.
+                • Designed and developed user interfaces using Figma and React,
+                implementing search, filtering, and inventory report generation
+                features for efficient record management.
               </p>
             </div>
 
@@ -164,7 +164,7 @@ function Projects() {
                   </div>
                 </div>
                 <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
-                  Mobile Application
+                  Plant Care Mobile Application
                 </p>
               </div>
             </div>
