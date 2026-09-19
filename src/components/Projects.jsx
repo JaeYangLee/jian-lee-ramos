@@ -39,7 +39,7 @@ function Projects() {
                   </div>
                 </div>
                 <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
-                  Full-Stack Art-Sharing Web Application
+                  Fullstack Art Sharing Web Application
                 </p>
               </div>
             </div>
