@@ -27,11 +27,11 @@ function Projects() {
                 <h2 className="text-md font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
                   Department of Human Settlements and Urban Development (DHSUD)
                 </h2>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   Project Monitoring and Evaluation Officer I
                 </p>
                 <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
-                  Nov 2025 - Present
+                  November 2025 - Present
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ function Projects() {
                 <h2 className="text-md font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
                   Philippine Coast Guard - CGWCEISC
                 </h2>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   Full Stack Developer Intern
                 </p>
                 <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">

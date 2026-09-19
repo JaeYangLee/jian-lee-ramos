@@ -32,13 +32,13 @@ function Projects() {
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6  text-[#31302D] dark:text-[#C6BF8B]" />
-                    <button className="font-mono text-xs px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
+                    <BsGithub className="size-6 lg:size-8  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <button className="font-mono text-xs lg:text-base px-2 border  text-[#31302D] hover:text-[#F9EEE8] hover:border-[#31302D] hover:bg-[#31302D] dark:text-[#C6BF8B] dark:hover:text-[#31302d] dark:hover:bg-[#C6BF8B] dark:active:text-[#C6BF8B] dark:active:bg-transparent dark:active:border-[#C6BF8B] select-none cursor-pointer transition-all duration-300 active:text-[#31302D] active:bg-[#838381]">
                       Live
                     </button>
                   </div>
                 </div>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   Full-Stack Art-Sharing Web Application
                 </p>
               </div>
@@ -93,13 +93,13 @@ function Projects() {
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 text-[#31302D] dark:text-[#C6BF8B]" />
-                    <button className="font-mono text-xs px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
+                    <BsGithub className="size-6 lg:size-8  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <button className="font-mono text-xs lg:text-base px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
                       Private
                     </button>
                   </div>
                 </div>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   Inventory Management Web Application
                 </p>
               </div>
@@ -157,13 +157,13 @@ function Projects() {
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 text-[#31302D] dark:text-[#C6BF8B]" />
-                    <button className="font-mono text-xs px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
+                    <BsGithub className="size-6 lg:size-8  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <button className="font-mono text-xs lg:text-base px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
                       Private
                     </button>
                   </div>
                 </div>
-                <p className="font-mono text-xs font-light lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
                   Plant Care Mobile Application
                 </p>
               </div>
