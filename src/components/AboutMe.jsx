@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <>
-      <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D]">
+      <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D] gap-4">
         <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 xl:py-16">
           <h1 className="font-antonio  font-bold text-3xl lg:text-4xl xl:text-5xl text-[#31302D] dark:text-[#F9EEE8]">
             Who I am.
@@ -21,10 +21,12 @@ function Projects() {
             <hr className="w-full opacity-30" />
           </div>
 
-          <div className="flex flex-col items-start text-left gap-4 xl:gap-8">
+          <div className="flex flex-col items-start gap-4 text-left xl:gap-8">
             <p className="text-xs lg:text-base font-mono font-light text-left xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
-              I'm Jian Lee Ramos, a Computer Science graduate and aspiring
-              software developer from the Philippines.
+              I'm{" "}
+              <span className="font-bold text-[#C6BF8B]">Jian Lee Ramos</span>,
+              a Computer Science graduate and aspiring software developer from
+              the Philippines.
             </p>
             <p className="text-xs lg:text-base font-mono font-light text-left xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
               I enjoy turning ideas into functional experiences through code,
@@ -48,21 +50,27 @@ function Projects() {
           </div>
 
           <div className="flex flex-col items-start gap-4 py-4">
-            <h2 className="text-2xl font-bold text-left md:text-2xl lg:text-4xl xl:text-5xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
-              My Tech Stack
-            </h2>
+            <div className="flex flex-col items-start gap-2 lg:gap-8">
+              <h2 className="text-2xl font-bold text-left md:text-2xl lg:text-4xl xl:text-5xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
+                My Tech Stack.
+              </h2>
+              <p className="font-mono text-xs lg:text-base font-light text-[#31302D] dark:text-[#F9EEE8]">
+                Technologies I often use to turn ideas into working
+                applications.
+              </p>
+            </div>
 
-            <div className="flex flex-col items-start font-mono text-xs gap-2">
+            <div className="flex flex-col items-start font-mono text-xs lg:text-base gap-2 text-[#31302D] dark:text-[#F9EEE8]">
               <h2 className="font-bold">Languanges:</h2>
 
-              <div className="flex flex-wrap items-start gap-2">
+              <div className="flex flex-wrap items-start gap-2 ">
                 <p className="px-2 border">Javascript</p>
                 <p className="px-2 border">Java</p>
                 <p className="px-2 border">Python</p>
               </div>
             </div>
 
-            <div className="flex flex-col items-start font-mono text-xs gap-2">
+            <div className="flex flex-col items-start font-mono text-xs lg:text-base gap-2 text-[#31302D] dark:text-[#F9EEE8]">
               <h2 className="font-bold">Frontend:</h2>
 
               <div className="flex flex-wrap items-start gap-2">
@@ -73,7 +81,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className="flex flex-col items-start font-mono text-xs gap-2">
+            <div className="flex flex-col items-start font-mono text-xs lg:text-base gap-2 text-[#31302D] dark:text-[#F9EEE8]">
               <h2 className="font-bold">Backend:</h2>
 
               <div className="flex flex-wrap items-start gap-2">
@@ -84,7 +92,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className="flex flex-col items-start font-mono text-xs gap-2">
+            <div className="flex flex-col items-start font-mono text-xs lg:text-base gap-2 text-[#31302D] dark:text-[#F9EEE8]">
               <h2 className="font-bold">Tools & Platforms:</h2>
 
               <div className="flex flex-wrap items-start gap-2">
@@ -92,6 +100,86 @@ function Projects() {
                 <p className="px-2 border">Postman</p>
                 <p className="px-2 border">Github</p>
                 <p className="px-2 border">VS Code</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-start gap-4 py-4">
+            <div className="flex flex-col items-start gap-2 lg:gap-8">
+              <h2 className="text-2xl font-bold text-left md:text-2xl lg:text-4xl xl:text-5xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
+                Beyond the code.
+              </h2>
+              <p className="font-mono text-xs lg:text-base font-light text-[#31302D] dark:text-[#F9EEE8]">
+                The interests and creative work that shape how I think and
+                create.
+              </p>
+            </div>
+
+            <div className="flex flex-col items-start gap-2">
+              <div className="flex flex-col gap-1">
+                <h2 className="font-bold font-antonio text-base lg:text-lg text-[#31302D] dark:text-[#C6BF8B]">
+                  Art influences
+                </h2>
+                <p className="font-mono text-xs lg:text-sm">
+                  Artists whose work inspires how I create.
+                </p>
+              </div>
+
+              <div className="flex flex-row flex-wrap items-start gap-2 font-mono text-xs lg:gap-4 lg:text-sm">
+                <p className="px-2 border">Yun Ikwon</p>
+                <p className="px-2 border">Masashi Kishimoto</p>
+                <p className="px-2 border">Claude Monet</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-start gap-2">
+              <div className="flex flex-col gap-1">
+                <h2 className="font-bold font-antonio text-base lg:text-lg text-[#31302D] dark:text-[#C6BF8B]">
+                  Anime fan
+                </h2>
+                <p className="font-mono text-xs lg:text-sm">
+                  Stories and worlds I keep coming back to.
+                </p>
+              </div>
+
+              <div className="flex flex-row flex-wrap items-start gap-2 font-mono text-xs lg:gap-4 lg:text-sm">
+                <p className="px-2 border">Naruto</p>
+                <p className="px-2 border">Mob Psycho 100</p>
+                <p className="px-2 border">Daily Lives of High School Boys</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-start gap-2">
+              <div className="flex flex-col gap-1">
+                <h2 className="font-bold font-antonio text-base lg:text-lg text-[#31302D] dark:text-[#C6BF8B]">
+                  Hip-hop Head
+                </h2>
+                <p className="font-mono text-xs lg:text-sm">
+                  The artists that stay in my rotation.
+                </p>
+              </div>
+
+              <div className="flex flex-row flex-wrap items-start gap-2 font-mono text-xs lg:gap-4 lg:text-sm">
+                <p className="px-2 border">Kendrick Lamar</p>
+                <p className="px-2 border">Denzel Curry</p>
+                <p className="px-2 border">$uicideboy$</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-start gap-2">
+              <div className="flex flex-col gap-1">
+                <h2 className="font-bold font-antonio text-base lg:text-lg text-[#31302D] dark:text-[#C6BF8B]">
+                  Gamer
+                </h2>
+                <p className="font-mono text-xs lg:text-sm">
+                  Games I keep coming back to..
+                </p>
+              </div>
+
+              <div className="flex flex-row flex-wrap items-start gap-2 font-mono text-xs lg:gap-4 lg:text-sm">
+                <p className="px-2 border">Tekken 8</p>
+                <p className="px-2 border">No Man's Sky</p>
+                <p className="px-2 border">Dota 2</p>
               </div>
             </div>
           </div>
