@@ -2,6 +2,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsGoogle } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
+import imgUrl from "../assets/jian-image-2.png";
 
 function PageOne() {
   return (
@@ -54,7 +55,7 @@ function PageOne() {
 
             <img
               className="object-cover size-66 lg:size-83 xl:size-102 rounded-2xl shadow-[#C6BF8B] shadow-[8px_8px_0px_0px]"
-              src="src/assets/jian-image-2.png"
+              src={imgUrl}
               alt="jian-image"
             />
           </div>
