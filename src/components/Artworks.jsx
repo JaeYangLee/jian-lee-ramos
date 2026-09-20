@@ -2,7 +2,7 @@ import imgUrl1 from "../assets/Artworks/480246677_914541654176119_23527837932770
 import imgUrl2 from "../assets/Artworks/SKPTR03-2.jpg";
 import imgUrl3 from "../assets/Artworks/SKPTR03-13.jpg";
 import imgUrl4 from "../assets/Artworks/TRIO2_3.png";
-import imgUrl5 from "./assets/Artworks/FINAL_iyakin_illustration_1.png";
+import imgUrl5 from "../assets/Artworks/FINAL_iyakin_illustration_1.png";
 import imgUrl6 from "../assets/Artworks/BG3_ZEN_2.png";
 import imgUrl7 from "../assets/Artworks/3RD_POSTER_FINAL_2.png";
 import imgUrl8 from "../assets/Artworks/TRIO1_2.png";
