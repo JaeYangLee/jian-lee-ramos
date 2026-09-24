@@ -34,7 +34,7 @@ function Projects() {
                   <div className="flex flex-row items-center justify-center gap-4">
                     <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
                     <a
-                      href="https://artdumpster.skwtr.com/"
+                      href="https://artdumpster.apps.skwtr.com/"
                       target="_blank"
                       className="font-mono text-xs lg:text-base 2xl:text-xl px-2 border  text-[#31302D] hover:text-[#F9EEE8] hover:border-[#31302D] hover:bg-[#31302D] dark:text-[#C6BF8B] dark:hover:text-[#31302d] dark:hover:bg-[#C6BF8B] dark:active:text-[#C6BF8B] dark:active:bg-transparent dark:active:border-[#C6BF8B] select-none cursor-pointer transition-all duration-300 active:text-[#31302D] active:bg-[#838381]"
                     >
