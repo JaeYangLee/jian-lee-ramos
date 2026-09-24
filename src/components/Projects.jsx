@@ -5,18 +5,18 @@ function Projects() {
   return (
     <>
       <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D]">
-        <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 xl:py-16">
-          <h1 className="font-antonio font-bold text-3xl lg:text-4xl xl:text-5xl text-[#31302D] dark:text-[#F9EEE8]">
+        <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 2xl:px-168 xl:py-16 2xl:py-20">
+          <h1 className="font-antonio font-bold text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-[#31302D] dark:text-[#F9EEE8]">
             What I've built.
           </h1>
-          <p className="text-xs font-mono font-light text-left lg:text-base xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+          <p className="text-xs font-mono font-light text-left lg:text-base xl:text-lg 2xl:text-xl text-[#31302D] dark:text-[#F9EEE8]">
             As a Computer Science graduate, these are some of the projects where
             I turned ideas into working software, applied what I’ve learned, and
             had fun building along the way.
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-center w-full gap-4 px-8 pb-4 md:px-24 lg:px-36 xl:px-72">
+        <div className="flex flex-col items-center justify-center w-full gap-4 px-8 pb-4 md:px-24 lg:px-36 xl:px-72 2xl:px-168">
           <div className="flex flex-col items-center justify-center w-full">
             <div className="flex flex-row items-center justify-center w-full gap-4 pb-2 dark:text-[#F9EEE8]">
               <hr className="w-full opacity-30" />
@@ -27,52 +27,56 @@ function Projects() {
             <div className="flex flex-row items-center justify-start w-full gap-4 pb-4">
               <div className="flex flex-col items-start justify-start w-full gap-2">
                 <div className="flex flex-row items-center justify-between w-full">
-                  <h2 className="text-2xl font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
+                  <h2 className="text-2xl font-bold text-left md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
                     ArtDumpster*
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 lg:size-8  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
-                    <button className="font-mono text-xs lg:text-base px-2 border  text-[#31302D] hover:text-[#F9EEE8] hover:border-[#31302D] hover:bg-[#31302D] dark:text-[#C6BF8B] dark:hover:text-[#31302d] dark:hover:bg-[#C6BF8B] dark:active:text-[#C6BF8B] dark:active:bg-transparent dark:active:border-[#C6BF8B] select-none cursor-pointer transition-all duration-300 active:text-[#31302D] active:bg-[#838381]">
+                    <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <a
+                      href="https://artdumpster.skwtr.com/"
+                      target="_blank"
+                      className="font-mono text-xs lg:text-base 2xl:text-xl px-2 border  text-[#31302D] hover:text-[#F9EEE8] hover:border-[#31302D] hover:bg-[#31302D] dark:text-[#C6BF8B] dark:hover:text-[#31302d] dark:hover:bg-[#C6BF8B] dark:active:text-[#C6BF8B] dark:active:bg-transparent dark:active:border-[#C6BF8B] select-none cursor-pointer transition-all duration-300 active:text-[#31302D] active:bg-[#838381]"
+                    >
                       Live
-                    </button>
+                    </a>
                   </div>
                 </div>
-                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg 2xl:text-xl text-[#31302D] dark:text-[#F9EEE8]">
                   Fullstack Art Sharing Web Application
                 </p>
               </div>
             </div>
 
             <div className="w-full flex flex-col items-start justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
-              <p className="font-mono text-xs font-light">
+              <p className="font-mono text-xs 2xl:text-base font-light">
                 • Developed a full-stack digital art gallery using React.js,
                 Node.js, Express.js, PostgreSQL, and Tailwind CSS.
               </p>
-              <p className="font-mono text-xs font-light">
+              <p className="font-mono text-xs  2xl:text-base font-light">
                 • Implemented RESTful APIs, CRUD operations, JWT authentication,
                 bcrypt password hashing, and image uploads.
               </p>
-              <p className="font-mono text-xs font-light">
+              <p className="font-mono text-xs  2xl:text-base font-light">
                 • Designed responsive UI/UX in Figma and deployed the
                 application to a production environment.
               </p>
             </div>
 
             <div className="flex flex-row flex-wrap items-start w-full gap-2 pt-4 text-center opacity-60">
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 PostgreSQL
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Node.js
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Express.jx
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 React
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Figma
               </p>
             </div>
@@ -88,35 +92,35 @@ function Projects() {
             <div className="flex flex-row items-center justify-start w-full gap-4 pb-4">
               <div className="flex flex-col items-start justify-start w-full gap-2">
                 <div className="flex flex-row items-center justify-between w-full">
-                  <h2 className="text-2xl font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
+                  <h2 className="text-2xl font-bold text-left md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
                     CGWCEISC Inventory System
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 lg:size-8  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
-                    <button className="font-mono text-xs lg:text-base px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
+                    <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <button className="font-mono text-xs lg:text-base 2xl:text-xl px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
                       Private
                     </button>
                   </div>
                 </div>
-                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg 2xl:text-xl text-[#31302D] dark:text-[#F9EEE8]">
                   Inventory Management Web Application
                 </p>
               </div>
             </div>
 
             <div className=" flex flex-col items-start justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
-              <p className="font-mono text-xs font-light">
+              <p className="font-mono text-xs 2xl:text-base font-light">
                 • Developed user authentication and role-based access features
                 using React, Node.js, and Express, with MySQL for data
                 management.
               </p>
-              <p className="font-mono text-xs font-light">
+              <p className="font-mono text-xs 2xl:text-base font-light">
                 • Implemented inventory management functionalities, including
                 real-time inventory tracking, item management, and inventory
                 logs/history.
               </p>
-              <p className="font-mono text-xs font-light">
+              <p className="font-mono text-xs 2xl:text-base font-light">
                 • Designed and developed user interfaces using Figma and React,
                 implementing search, filtering, and inventory report generation
                 features for efficient record management.
@@ -124,19 +128,19 @@ function Projects() {
             </div>
 
             <div className="flex flex-row flex-wrap items-start w-full gap-2 pt-4 text-center opacity-60">
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 MySQL
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Node.js
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Express.js
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 React
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Figma
               </p>
             </div>
@@ -152,50 +156,50 @@ function Projects() {
             <div className="flex flex-row items-center justify-start w-full gap-4 pb-4">
               <div className="flex flex-col items-start justify-start w-full gap-2">
                 <div className="flex flex-row items-center justify-between w-full">
-                  <h2 className="text-2xl font-bold text-left md:text-xl lg:text-2xl xl:text-3xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
+                  <h2 className="text-2xl font-bold text-left md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-antonio text-[#31302D] dark:text-[#C6BF8B]">
                     Plantitotita
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 lg:size-8  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
-                    <button className="font-mono text-xs lg:text-base px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
+                    <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <button className="font-mono text-xs lg:text-base 2xl:text-xl px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
                       Private
                     </button>
                   </div>
                 </div>
-                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg text-[#31302D] dark:text-[#F9EEE8]">
+                <p className="font-mono text-xs font-bold lg:text-lg xl:text-lg 2xl:text-xl text-[#31302D] dark:text-[#F9EEE8]">
                   Plant Care Mobile Application
                 </p>
               </div>
             </div>
 
-            <div className=" flex flex-col items-start justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
-              <p className="font-mono text-xs font-light">
+            <div className=" flex flex-col items-start w-full opacity-60 gap-2 dark:text-[#F9EEE8]">
+              <p className="font-mono text-xs 2xl:text-base  font-light">
                 • Assigned as Project Manager for a fourth-year capstone
                 project, overseeing development schedules, module planning,
                 documentation, and team coordination.
               </p>
-              <p className="font-mono text-xs font-light">
+              <p className="font-mono text-xs 2xl:text-base  font-light">
                 • Created wireframes and interactive prototypes in Figma to
                 support user-centered design.
               </p>
-              <p className="font-mono text-xs font-light">
+              <p className="font-mono text-xs 2xl:text-base  font-light">
                 • Assisted in mobile application development using Java and XML
                 in Android Studio.
               </p>
             </div>
 
             <div className="flex flex-row flex-wrap items-start w-full gap-2 pt-4 pb-8 text-center opacity-60">
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Android Studio
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Java
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Firebase
               </p>
-              <p className="px-1 md:px-2 text-xs border text-[#31302D] dark:text-[#F9EEE8] font-mono">
+              <p className="px-1 md:px-2 text-xs 2xl:text-sm border text-[#31302D] dark:text-[#F9EEE8] font-mono">
                 Figma
               </p>
             </div>

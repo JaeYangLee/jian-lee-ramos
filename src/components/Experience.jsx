@@ -4,7 +4,7 @@ function Projects() {
   return (
     <>
       <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D]">
-        <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 xl:py-16">
+        <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 xl:py-16 2xl:px-168">
           <h1 className="font-antonio  font-bold text-3xl lg:text-4xl xl:text-5xl text-[#31302D] dark:text-[#F9EEE8]">
             Where I've grown.
           </h1>
@@ -14,7 +14,7 @@ function Projects() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-center w-full gap-4 px-8 py-4 md:px-24 lg:px-36 xl:px-72">
+        <div className="flex flex-col items-center justify-center w-full gap-4 px-8 py-4 md:px-24 lg:px-36 xl:px-72 2xl:px-168">
           <div className="flex flex-col items-center justify-center w-full">
             <div className="flex flex-row items-center justify-center w-full gap-4 pb-2 dark:text-[#F9EEE8]">
               <hr className="w-full opacity-30" />
@@ -84,7 +84,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center justify-center opacity-60 gap-2 pb-4 dark:text-[#F9EEE8]">
+            <div className="flex flex-col items-start w-full opacity-60 gap-2 pb-4 dark:text-[#F9EEE8]">
               <p className="font-mono text-xs font-light">
                 • Initiated the development of CGWCEISC Inventory System laid
                 the foundation for improvement of CGWCEISC’s asset management

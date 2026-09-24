@@ -16,13 +16,13 @@ function PageTwo() {
     <>
       <div className="flex flex-col w-full h-full ">
         <div className="flex flex-row items-center justify-center pt-8 dark:bg-[#1d1d1b]">
-          <ul className="flex-row items-center justify-between hidden w-full gap-4 px-24 font-bold lg:px-34 xl:px-70 md:flex font-antonio">
+          <ul className="flex-row items-center justify-between hidden w-full gap-4 px-24 font-bold lg:px-34 xl:px-70 2xl:px-168 md:flex font-antonio">
             <li
               onClick={() => setActiveSection("projects")}
               className={
                 activeSection === "projects"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
-                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl active:text-[#958f8b]  active:ease-in before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0"
+                  ? "p-2 2xl:p-4 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
+                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl active:text-[#958f8b]  active:ease-in before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0"
               }
             >
               PROJECTS
@@ -32,8 +32,8 @@ function PageTwo() {
               onClick={() => setActiveSection("experience")}
               className={
                 activeSection === "experience"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
-                  : `relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0 active:text-[#958f8b]  active:ease-in`
+                  ? "p-2 2xl:p-4 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
+                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl active:text-[#958f8b]  active:ease-in before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0"
               }
             >
               EXPERIENCE
@@ -43,8 +43,8 @@ function PageTwo() {
               onClick={() => setActiveSection("education")}
               className={
                 activeSection === "education"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
-                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0 active:text-[#958f8b]  active:ease-in"
+                  ? "p-2 2xl:p-4 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
+                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl active:text-[#958f8b]  active:ease-in before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0"
               }
             >
               EDUCATION
@@ -54,8 +54,8 @@ function PageTwo() {
               onClick={() => setActiveSection("artworks")}
               className={
                 activeSection === "artworks"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
-                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0 active:text-[#958f8b]  active:ease-in"
+                  ? "p-2 2xl:p-4 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
+                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl active:text-[#958f8b]  active:ease-in before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0"
               }
             >
               ARTWORKS
@@ -65,8 +65,8 @@ function PageTwo() {
               onClick={() => setActiveSection("aboutMe")}
               className={
                 activeSection === "aboutMe"
-                  ? "p-2 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
-                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0 active:text-[#958f8b]  active:ease-in"
+                  ? "p-2 2xl:p-4 rounded-t  bg-[#F9EEE8] dark:bg-[#31302D] dark:text-[#F9EEE8] text-[#31302D] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl shadow-[8px_8px_0px_0px] shadow-black transition-all origin-bottom duration-200 ease-out select-none"
+                  : "relative p-2 rounded-t cursor-pointer text-[#F9EEE8] md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl active:text-[#958f8b]  active:ease-in before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-0.5  before:bg-[#F9EEE8] before:transition-all before:duration-200 before:ease-out hover:before:w-full active:before:w-0"
               }
             >
               ABOUT ME
