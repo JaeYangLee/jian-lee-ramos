@@ -32,7 +32,12 @@ function Projects() {
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <a
+                      href="https://github.com/JaeYangLee/artdumspter-app"
+                      target="_blank"
+                    >
+                      <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    </a>
                     <a
                       href="https://artdumpster.apps.skwtr.com/"
                       target="_blank"
@@ -97,7 +102,12 @@ function Projects() {
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <a
+                      href="https://github.com/JaeYangLee/pcg-inventory-system"
+                      target="_blank"
+                    >
+                      <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    </a>
                     <button className="font-mono text-xs lg:text-base 2xl:text-xl px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
                       Private
                     </button>
@@ -161,7 +171,12 @@ function Projects() {
                   </h2>
 
                   <div className="flex flex-row items-center justify-center gap-4">
-                    <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    <a
+                      href="https://github.com/JaeYangLee/PLANTITOTITA"
+                      target="_blank"
+                    >
+                      <BsGithub className="size-6 lg:size-8 2xl:size-12  text-[#31302D] hover:text-[#838381] active:text-[#31302D] cursor-pointer dark:text-[#C6BF8B] dark:hover:text-[#777353] dark:active:text-[#C6BF8B] transition-all duration-300" />
+                    </a>
                     <button className="font-mono text-xs lg:text-base 2xl:text-xl px-2 border  text-[#31302D] dark:text-[#C6BF8B]">
                       Private
                     </button>
