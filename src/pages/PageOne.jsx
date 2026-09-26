@@ -64,7 +64,7 @@ function PageOne() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center bg-[#31302D] dark:bg-[#1d1d1b] p-8 xl:pb-20 md:px-24 lg:px-36 xl:px-72 2xl:px-168 gap-2">
+      <div className="flex flex-col items-center justify-center bg-[#31302D] dark:bg-[#1d1d1b] p-8 xl:pb-20 md:px-24 lg:px-36 xl:px-72 2xl:px-120 gap-2">
         <div className="flex flex-col items-start justify-center">
           <p className="font-mono font-light text-left text-xs lg:text-base 2xl:text-2xl text-[#F9EEE8]">
             Hi there! I’m
