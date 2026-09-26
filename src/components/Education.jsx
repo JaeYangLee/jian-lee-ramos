@@ -17,7 +17,7 @@ function Projects() {
         <div className="flex flex-col items-center justify-center w-full gap-4 px-8 py-4 lg:items-start lg:justify-start 2xl:items-center 2xl:justify-center lg:gap-12 md:gap-12 md:flex-row md:px-24 lg:px-36 xl:px-72 2xl:px-168">
           <div className="">
             <img
-              className="size-64 lg:size-94 xl:size-106 object-cover rounded-lg shadow-[#31302D] dark:shadow-black  shadow-lg"
+              className="size-64 lg:size-94 xl:size-106 2xl:size-176 object-cover rounded-lg shadow-[#31302D] dark:shadow-black  shadow-lg"
               src={imgUrl}
               alt="jian-grad-pic"
             />
@@ -33,16 +33,16 @@ function Projects() {
             <h1 className="flex text-xl font-bold text-center md:hidden font-antonio text-[#31302D] dark:text-[#C6BF8B]">
               B.S. Major in Computer Science
             </h1>
-            <h1 className="hidden text-lg font-bold md:text-xl lg:text-2xl xl:text-3xl md:flex font-antonio text-[#31302D] dark:text-[#C6BF8B]">
+            <h1 className="hidden text-lg font-bold md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl md:flex font-antonio text-[#31302D] dark:text-[#C6BF8B]">
               B.S. Major in Computer Science
             </h1>
-            <p className="font-mono text-sm font-light text-center xl:text-lg text-[#31302D] opacity-60 dark:text-[#F9EEE8]">
+            <p className="font-mono text-sm font-light text-center xl:text-lg 2xl:text-xl text-[#31302D] opacity-60 dark:text-[#F9EEE8]">
               S.Y. 2021-2025
             </p>
-            <p className="font-mono text-sm font-light text-center xl:text-lg text-[#31302D] opacity-60 dark:text-[#F9EEE8]">
+            <p className="font-mono text-sm font-light text-center xl:text-lg 2xl:text-xl text-[#31302D] opacity-60 dark:text-[#F9EEE8]">
               STI College San Jose Del Monte
             </p>
-            <p className="pb-4 font-mono text-sm font-light text-center xl:text-lg text-[#31302D] dark:text-[#F9EEE8] opacity-60">
+            <p className="pb-4 font-mono text-sm font-light text-center xl:text-lg 2xl:text-xl text-[#31302D] dark:text-[#F9EEE8] opacity-60">
               Bulacan, Philippines
             </p>
             <hr className="w-full opacity-30" />
