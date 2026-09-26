@@ -38,7 +38,9 @@ function PageOne() {
 
                 <a
                   className="hover:animate-shake origin-bottom transition-transform duration-300"
-                  href="ramosjianlee@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=ramosjianlee@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <BsGoogle className="size-5 md:size-6 lg:size-8 xl:size-9 2xl:size-16 text-[#F9EEE8] active:text-[#958f8b] active:translate-1 active:origin-bottom transition:transform duration-50" />
                 </a>
