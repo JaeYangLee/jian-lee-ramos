@@ -16,7 +16,7 @@ function PageTwo() {
     <>
       <div className="flex flex-col w-full h-full ">
         <div className="flex flex-row items-center justify-center pt-8 dark:bg-[#1d1d1b]">
-          <ul className="flex-row items-center justify-between hidden w-full gap-4 px-24 font-bold lg:px-34 xl:px-70 2xl:px-120 md:flex font-antonio">
+          <ul className="flex-row items-center justify-between hidden w-full gap-4 px-24 font-bold lg:px-34 xl:px-70 2xl:px-80 md:flex font-antonio">
             <li
               onClick={() => setActiveSection("projects")}
               className={

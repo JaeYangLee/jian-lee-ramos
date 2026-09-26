@@ -33,7 +33,7 @@ function Projects() {
   return (
     <>
       <div className="flex flex-col items-start w-full min-h-screen bg-[#F9EEE8] dark:bg-[#31302D]">
-        <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 xl:py-16 2xl:px-120 2xl:py-20">
+        <div className="flex flex-col gap-4 px-8 py-4 xl:gap-8 md:px-24 md:py-8 lg:px-36 lg:py-12 xl:px-72 xl:py-16 2xl:px-80 2xl:py-20">
           <h1 className="font-antonio  font-bold text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-[#31302D] dark:text-[#F9EEE8]">
             What I create.
           </h1>
@@ -43,13 +43,13 @@ function Projects() {
           </p>
         </div>
 
-        <div className="flex flex-row items-center justify-center w-full gap-4 px-8 pb-2 xl:gap-8 md:px-24 lg:px-36 xl:px-72 2xl:px-120 dark:text-[#F9EEE8]">
+        <div className="flex flex-row items-center justify-center w-full gap-4 px-8 pb-2 xl:gap-8 md:px-24 lg:px-36 xl:px-72 2xl:px-80 dark:text-[#F9EEE8]">
           <hr className="w-full opacity-30" />
           <p className="opacity-30">✦</p>
           <hr className="w-full opacity-30" />
         </div>
 
-        <div className="w-full px-4 py-2 columns-2 md:columns-3 sm:columns-2 lg:columns-2 xl:columns-2 xl:gap-8 md:px-24 md:py-4 lg:px-36 lg:py-8 xl:px-72 xl:py-12 2xl:px-120">
+        <div className="w-full px-4 py-2 columns-2 md:columns-3 sm:columns-2 lg:columns-2 xl:columns-2 xl:gap-8 md:px-24 md:py-4 lg:px-36 lg:py-8 xl:px-72 xl:py-12 2xl:px-80">
           <img className="py-2 " src={imgUrl1} alt="artwork" />
           <img className="py-2" src={imgUrl2} alt="artwork" />
           <img className="py-2" src={imgUrl3} alt="artwork" />
