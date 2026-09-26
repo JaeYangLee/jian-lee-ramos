@@ -4,7 +4,6 @@ import PageOne from "./pages/PageOne";
 import PageTwo from "../src/pages/PageTwo";
 import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
-import DownloadCV from "./components/DownloadCV";
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -23,7 +22,6 @@ function App() {
   return (
     <>
       <div>
-        <DownloadCV />
         <SideBar />
         <PageOne />
         <PageTwo />
