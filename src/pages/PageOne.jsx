@@ -66,16 +66,16 @@ function PageOne() {
 
       <div className="flex flex-col items-center justify-center bg-[#31302D] dark:bg-[#1d1d1b] p-8 xl:pb-20 md:px-24 lg:px-36 xl:px-72 2xl:px-80 gap-2">
         <div className="flex flex-col items-start justify-center">
-          <p className="font-mono font-light text-left text-xs lg:text-base 2xl:text-2xl text-[#F9EEE8]">
+          <p className="font-mono font-light text-left text-xs lg:text-base text-[#F9EEE8]">
             Hi there! I’m
             <span className="text-[#C6BF8B] font-bold "> Jian Lee</span> Welcome
             to my little corner of the web!
           </p>
-          <p className="font-mono font-light text-left text-xs text-[#F9EEE8] lg:text-base 2xl:text-2xl">
+          <p className="font-mono font-light text-left text-xs text-[#F9EEE8] lg:text-base">
             Here, you’ll get to explore the projects I’ve been working on, dive
             into my creative journey, and get to know me a bit better.
           </p>
-          <p className="font-mono font-light text-left text-xs text-[#F9EEE8] lg:text-base 2xl:text-2xl">
+          <p className="font-mono font-light text-left text-xs text-[#F9EEE8] lg:text-base">
             Feel free to look around and enjoy!
           </p>
         </div>
