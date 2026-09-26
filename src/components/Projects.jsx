@@ -119,7 +119,7 @@ function Projects() {
               </div>
             </div>
 
-            <div className=" flex flex-col items-start justify-center opacity-60 gap-2 dark:text-[#F9EEE8]">
+            <div className=" flex flex-col items-start justify-center opacity-60 gap-2 dark:text-[#F9EEE8] w-full">
               <p className="font-mono text-xs 2xl:text-base font-light">
                 • Developed user authentication and role-based access features
                 using React, Node.js, and Express, with MySQL for data
