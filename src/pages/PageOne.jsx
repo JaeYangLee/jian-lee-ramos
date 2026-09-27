@@ -2,7 +2,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsGoogle } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-import imgUrl from "../assets/jian-image-2.png";
+import imgUrl from "../assets/jian-image-2.webp";
 
 function PageOne() {
   return (
