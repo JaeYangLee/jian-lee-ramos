@@ -8,7 +8,7 @@ function PageOne() {
   return (
     <>
       <div className="w-full h-screen flex flex-col items-center justify-center bg-[#31302D] dark:bg-[#1d1d1b] px-4">
-        <div className="flex flex-col items-center justify-center gap-4 2xl:gap-8">
+        <div className="flex flex-col items-center justify-center gap-4 2xl:gap-8 animate-fade-up">
           <h1 className="w-full text-center md:text-left font-antonio text-[#C6BF8B] text-5xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-9xl font-bold">
             JIAN LEE RAMOS
           </h1>
